@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import Maps148477Navigator from '../features/Maps148477/navigator';
 import SignIn11148476Navigator from '../features/SignIn11148476/navigator';
 
 /**
@@ -14,6 +15,7 @@ import SignIn11148476Navigator from '../features/SignIn11148476/navigator';
 const AppNavigator = {
 
     //@BlueprintNavigationInsertion
+Maps148477: { screen: Maps148477Navigator },
 SignIn11148476: { screen: SignIn11148476Navigator },
 
     /** new navigators can be added here */
